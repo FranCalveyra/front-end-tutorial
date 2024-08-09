@@ -7,7 +7,7 @@ function App() {
   return (
       <BrowserRouter>
           <Routes>
-              <Route element={<TodoList/>} path={"/home"}></Route>
+              <Route path={"/home"} element={<TodoList/>} ></Route>
           </Routes>
       </BrowserRouter>
   )
