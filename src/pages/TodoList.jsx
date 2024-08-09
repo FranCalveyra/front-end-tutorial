@@ -1,4 +1,4 @@
-import {ItemAdder} from "./ItemAdder";
+import {ItemAdder} from "../components/ItemAdder";
 
 export const TodoList = () =>{
 
